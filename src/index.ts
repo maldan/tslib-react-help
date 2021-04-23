@@ -30,7 +30,7 @@ export function smartPage(
   actionList: Record<string, (...args: any[]) => void>,
 ): any {
   function mapStateToProps(state: any): any {
-    return state[storeName];
+    return state[storeName]; //
   }
 
   function mapDispatchToProps(dispatch: (arg: unknown) => void) {
