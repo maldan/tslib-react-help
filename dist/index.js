@@ -19,7 +19,7 @@ function reduxFastConnect(connect, storeName, component, actionList) {
 exports.reduxFastConnect = reduxFastConnect;
 function smartPage(fn, connect, storeName, actionList) {
     function mapStateToProps(state) {
-        return state[storeName];
+        return state[storeName]; //
     }
     function mapDispatchToProps(dispatch) {
         const aList = {};
